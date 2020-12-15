@@ -1,0 +1,7 @@
+#This file contains a list of nodes and their children which are allowed to expand in the mining process
+#Each line corresponds to a node and its children. Lines begin with # are comments
+#i.e. SimpleName has 2 children, identifier and var.
+#.    If we want to expand identifier and ignore var we can create a line as SimpleName identifier
+
+
+# body AugAssign Assign For Return If While Try Pass Break FunctionDef Assert Raise

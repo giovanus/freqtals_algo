@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<results>
+
+<subtree id="1" support="3" wsupport="4" size="12">
+<Block>
+<statements>
+<__directives><match-sequence/></__directives>
+<Assign>
+<listAssign>
+<__directives><match-sequence/></__directives>
+<Targets>
+<listTargets>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</listTargets>
+</Targets>
+<Num>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Num>
+</listAssign>
+</Assign>
+</statements>
+</Block>
+</subtree>
+
+<subtree id="2" support="1" wsupport="1" size="165">
+<Block>
+<statements>
+<__directives><match-sequence/></__directives>
+<FunctionDef>
+<__directives><match-sequence/></__directives>
+<nameDef>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</nameDef>
+<arguments>
+<__directives><match-sequence/></__directives>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+</arguments>
+<body>
+<Block>
+<statements>
+<__directives><match-sequence/></__directives>
+<If>
+<__directives><match-sequence/></__directives>
+<test>
+<Compare>
+<__directives><match-sequence/></__directives>
+<value1>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value1>
+<cmpop>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</cmpop>
+<value2>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value2>
+</Compare>
+</test>
+<body>
+<Block>
+<statements>
+<__directives><match-sequence/></__directives>
+<AugAssign>
+<__directives><match-sequence/></__directives>
+<target>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</target>
+<op>
+<Sub>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Sub>
+</op>
+<value>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value>
+</AugAssign>
+</statements>
+</Block>
+</body>
+<orelse>
+<AugAssign>
+<__directives><match-sequence/></__directives>
+<target>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</target>
+<op>
+<Sub>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Sub>
+</op>
+<value>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value>
+</AugAssign>
+</orelse>
+</If>
+<Return>
+<listReturn>
+<BinOp>
+<listBinOp>
+<__directives><match-sequence/></__directives>
+<BinOp>
+<listBinOp>
+<__directives><match-sequence/></__directives>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+</listBinOp>
+</BinOp>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+</listBinOp>
+</BinOp>
+</listReturn>
+</Return>
+</statements>
+</Block>
+</body>
+</FunctionDef>
+<FunctionDef>
+<__directives><match-sequence/></__directives>
+<nameDef>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</nameDef>
+<arguments>
+<__directives><match-sequence/></__directives>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+<Arg>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Arg>
+</arguments>
+<body>
+<Block>
+<statements>
+<__directives><match-sequence/></__directives>
+<If>
+<__directives><match-sequence/></__directives>
+<test>
+<Compare>
+<__directives><match-sequence/></__directives>
+<value1>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value1>
+<cmpop>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</cmpop>
+<value2>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value2>
+</Compare>
+</test>
+<body>
+<Block>
+<statements>
+<__directives><match-sequence/></__directives>
+<AugAssign>
+<__directives><match-sequence/></__directives>
+<target>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</target>
+<op>
+<Sub>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Sub>
+</op>
+<value>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value>
+</AugAssign>
+</statements>
+</Block>
+</body>
+<orelse>
+<AugAssign>
+<__directives><match-sequence/></__directives>
+<target>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</target>
+<op>
+<Add>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Add>
+</op>
+<value>
+<Name>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Name>
+</value>
+</AugAssign>
+</orelse>
+</If>
+<Return>
+<listReturn>
+<BinOp>
+<listBinOp>
+<__directives><match-sequence/></__directives>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+<Op>
+<identifier>
+<Dummy>
+<__directives>
+<optional />
+<meta-variable>
+<parameter key="name" value="?identifier"/>
+</meta-variable>
+</__directives>
+</Dummy>
+</identifier>
+</Op>
+</listBinOp>
+</BinOp>
+</listReturn>
+</Return>
+</statements>
+</Block>
+</body>
+</FunctionDef>
+</statements>
+</Block>
+</subtree>
+
+</results>
