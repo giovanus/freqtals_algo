@@ -1,0 +1,37 @@
+# Tree-sitter JavaScript labels allowed as pattern roots.
+# Focused for vulnerability-oriented patterns: calls, property access,
+# assignments, declarations, control flow, and function boundaries.
+
+function_declaration
+function
+arrow_function
+method_definition
+generator_function_declaration
+generator_function
+
+call_expression
+new_expression
+member_expression
+subscript_expression
+await_expression
+
+assignment_expression
+augmented_assignment_expression
+variable_declarator
+lexical_declaration
+variable_declaration
+
+if_statement
+else_clause
+for_statement
+for_in_statement
+while_statement
+do_statement
+switch_statement
+try_statement
+catch_clause
+throw_statement
+return_statement
+
+statement_block
+expression_statement

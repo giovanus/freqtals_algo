@@ -1,0 +1,31 @@
+# Reserved leaf values that should not be abstracted when abstractLeafs = true.
+#
+# Note: actual_script/_4_generate_ast.py currently emits structural XML only:
+# leaf texts such as eval, fetch, req, res, innerHTML are not serialized yet.
+# This file will matter once identifier/literal text nodes are emitted.
+
+*console
+*require
+*module
+*exports
+*Promise
+*eval
+*Function
+*setTimeout
+*setInterval
+*fetch
+*XMLHttpRequest
+*innerHTML
+*outerHTML
+*document
+*window
+*process
+*child_process
+*exec
+*execSync
+*spawn
+*query
+*body
+*params
+*cookies
+*headers

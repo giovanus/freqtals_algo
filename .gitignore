@@ -98,3 +98,16 @@ buildNumber.properties
 # End of https://www.gitignore.io/api/maven,intellij
 .swp
 /bin/*
+
+#my_dataset_files
+js_files/
+js_ast_xml/
+codeql_injection_sql/
+js_output/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb

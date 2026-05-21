@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SourceFile FullName="sample-data/JavaScript/sample_input_js/math-utils-a.js" Language="JavaScript" LineNr="1">
+  <Program LineNr="1">
+    <body LineNr="1">
+      <FunctionDeclaration LineNr="1">
+        <id LineNr="1"><Identifier LineNr="1"><name LineNr="1">add</name></Identifier></id>
+        <params LineNr="1">
+          <Identifier LineNr="1"><name LineNr="1">a</name></Identifier>
+          <Identifier LineNr="1"><name LineNr="1">b</name></Identifier>
+        </params>
+        <body LineNr="1">
+          <BlockStatement LineNr="1">
+            <body LineNr="2">
+              <ReturnStatement LineNr="2">
+                <argument LineNr="2">
+                  <BinaryExpression LineNr="2">
+                    <left LineNr="2"><Identifier LineNr="2"><name LineNr="2">a</name></Identifier></left>
+                    <operator LineNr="2">+</operator>
+                    <right LineNr="2"><Identifier LineNr="2"><name LineNr="2">b</name></Identifier></right>
+                  </BinaryExpression>
+                </argument>
+              </ReturnStatement>
+            </body>
+          </BlockStatement>
+        </body>
+      </FunctionDeclaration>
+      <FunctionDeclaration LineNr="5">
+        <id LineNr="5"><Identifier LineNr="5"><name LineNr="5">double</name></Identifier></id>
+        <params LineNr="5"><Identifier LineNr="5"><name LineNr="5">value</name></Identifier></params>
+        <body LineNr="5">
+          <BlockStatement LineNr="5">
+            <body LineNr="6">
+              <ReturnStatement LineNr="6">
+                <argument LineNr="6">
+                  <CallExpression LineNr="6">
+                    <callee LineNr="6"><Identifier LineNr="6"><name LineNr="6">add</name></Identifier></callee>
+                    <arguments LineNr="6">
+                      <Identifier LineNr="6"><name LineNr="6">value</name></Identifier>
+                      <Identifier LineNr="6"><name LineNr="6">value</name></Identifier>
+                    </arguments>
+                  </CallExpression>
+                </argument>
+              </ReturnStatement>
+            </body>
+          </BlockStatement>
+        </body>
+      </FunctionDeclaration>
+    </body>
+  </Program>
+</SourceFile>

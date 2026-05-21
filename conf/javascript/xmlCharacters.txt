@@ -1,0 +1,4 @@
+# Special XML characters used when serializing patterns.
+<	&lt;
+>	&gt;
+&	&amp;

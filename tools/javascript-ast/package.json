@@ -1,0 +1,12 @@
+{
+  "name": "freqtals-javascript-ast-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node ast-to-freqtals-xml.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.24.0"
+  }
+}
