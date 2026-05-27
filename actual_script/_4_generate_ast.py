@@ -14,12 +14,12 @@ parser = Parser(JS_LANGUAGE)
 
 def sanitize_xml_tag(label):
     """
-    Convertit un label Tree-sitter en nom de balise XML valide.
-    Les noeuds nommés de Tree-sitter JS sont généralement déjà propres
-    (function_declaration, call_expression, etc.), mais cette garde évite
-    de casser le XML si un label inattendu apparaît.
+    Convertit un label Tree-sitter en balise XML compatible FREQTALS.
+    FREQTALS ignore les racines qui ne commencent pas par une majuscule,
+    donc on transforme les labels comme call_expression en CallExpression.
     """
-    sanitized = "".join(char if char.isalnum() or char in "._-" else "_" for char in label)
+    pascal_label = "".join(part.capitalize() for part in label.split("_") if part)
+    sanitized = "".join(char if char.isalnum() or char in "._-" else "_" for char in pascal_label)
     if not sanitized or not (sanitized[0].isalpha() or sanitized[0] == "_"):
         sanitized = f"_{sanitized}"
     return sanitized
@@ -33,7 +33,13 @@ def line_number(node):
     return node.start_point[0] + 1
 
 
-def node_to_xml(node, indent=1):
+def next_id(counter):
+    current = counter["value"]
+    counter["value"] += 1
+    return current
+
+
+def node_to_xml(node, source_code_bytes, id_counter, indent=1):
     """
     Convertit un noeud Tree-sitter en XML compatible avec FREQTALS.
     On garde uniquement les named_children pour éviter la ponctuation pure
@@ -42,23 +48,30 @@ def node_to_xml(node, indent=1):
     tag = sanitize_xml_tag(node.type)
     spaces = "  " * indent
     line = line_number(node)
+    node_id = next_id(id_counter)
 
     if not node.named_children:
-        return f'{spaces}<{tag} LineNr="{line}"/>'
+        text = source_code_bytes[node.start_byte:node.end_byte].decode("utf8", errors="ignore").strip()
+        if not text:
+            return f'{spaces}<{tag} ID="{node_id}" LineNr="{line}"/>'
+        return f'{spaces}<{tag} ID="{node_id}" LineNr="{line}">{escape(text)}</{tag}>'
 
-    children_xml = [node_to_xml(child, indent + 1) for child in node.named_children]
+    children_xml = [node_to_xml(child, source_code_bytes, id_counter, indent + 1) for child in node.named_children]
     return "\n".join([
-        f'{spaces}<{tag} LineNr="{line}">',
+        f'{spaces}<{tag} ID="{node_id}" LineNr="{line}">',
         *children_xml,
         f"{spaces}</{tag}>"
     ])
 
 
-def tree_to_freqtals_xml(root, source_path):
+def tree_to_freqtals_xml(root, source_path, source_code_bytes):
+    id_counter = {"value": 1}
+    source_file_id = next_id(id_counter)
+
     return "\n".join([
         '<?xml version="1.0" encoding="UTF-8"?>',
-        f'<SourceFile FullName="{escape(source_path)}" Language="JavaScript" LineNr="1">',
-        node_to_xml(root, indent=1),
+        f'<SourceFile FullName="{escape(source_path)}" ID="{source_file_id}" Language="JavaScript" LineNr="1">',
+        node_to_xml(root, source_code_bytes, id_counter, indent=1),
         "</SourceFile>",
         ""
     ])
@@ -81,7 +94,7 @@ for file in os.listdir(JS_DIR):
         tree = parser.parse(code_bytes)
         root = tree.root_node
 
-        ast_xml = tree_to_freqtals_xml(root, js_path)
+        ast_xml = tree_to_freqtals_xml(root, js_path, code_bytes)
 
         with open(ast_path, "w", encoding="utf8") as f:
             f.write(ast_xml)

@@ -2,36 +2,36 @@
 # Focused for vulnerability-oriented patterns: calls, property access,
 # assignments, declarations, control flow, and function boundaries.
 
-function_declaration
-function
-arrow_function
-method_definition
-generator_function_declaration
-generator_function
+FunctionDeclaration
+Function
+ArrowFunction
+MethodDefinition
+GeneratorFunctionDeclaration
+GeneratorFunction
 
-call_expression
-new_expression
-member_expression
-subscript_expression
-await_expression
+CallExpression
+NewExpression
+MemberExpression
+SubscriptExpression
+AwaitExpression
 
-assignment_expression
-augmented_assignment_expression
-variable_declarator
-lexical_declaration
-variable_declaration
+AssignmentExpression
+AugmentedAssignmentExpression
+VariableDeclarator
+LexicalDeclaration
+VariableDeclaration
 
-if_statement
-else_clause
-for_statement
-for_in_statement
-while_statement
-do_statement
-switch_statement
-try_statement
-catch_clause
-throw_statement
-return_statement
+IfStatement
+ElseClause
+ForStatement
+ForInStatement
+WhileStatement
+DoStatement
+SwitchStatement
+TryStatement
+CatchClause
+ThrowStatement
+ReturnStatement
 
-statement_block
-expression_statement
+StatementBlock
+ExpressionStatement
