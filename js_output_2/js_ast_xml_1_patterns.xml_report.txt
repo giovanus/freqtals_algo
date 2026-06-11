@@ -1,0 +1,15 @@
+INPUT
+===================
+- data sources : ./js_ast_xml
+- input files : 29
+- minSupport : 1
+
+OUTPUT
+===================
+- Step 1: Mining frequent patterns with max size constraints
+	 + running time = 1s
+	 + root occurrences groups = 74
+- Step 2: Mining maximal patterns WITHOUT max size constraint:
+	 + search finished
+	 + maximal patterns: 30
+	 + running time: ...1s

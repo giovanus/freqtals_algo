@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+  <subtree id="1" support="29" wsupport="128" size="5">
+    <CallExpression>
+      <__directives>
+        <match-sequence/>
+      </__directives>
+      <Arguments>
+        <String>
+          <StringFragment>
+            <Dummy>
+              <__directives>
+                <optional/>
+                <meta-variable>
+                  <parameter key="name" value="?StringFragment"/>
+                </meta-variable>
+              </__directives>
+            </Dummy>
+          </StringFragment>
+        </String>
+      </Arguments>
+    </CallExpression>
+  </subtree>
+</results>

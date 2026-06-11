@@ -103,7 +103,7 @@ buildNumber.properties
 js_files/
 js_ast_xml/
 codeql_injection_sql/
-js_output*/
+# js_output*/
 
 # python
 __pycache__/

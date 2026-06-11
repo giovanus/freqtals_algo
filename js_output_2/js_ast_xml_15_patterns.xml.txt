@@ -1,0 +1,2 @@
+(ExpressionStatement(CallExpression(MemberExpression(Identifier(**))(PropertyIdentifier(**)))(Arguments(String(StringFragment(**))))))
+(LexicalDeclaration(VariableDeclarator(Identifier(**))(CallExpression(Identifier(**))(Arguments(String(StringFragment(**)))))))

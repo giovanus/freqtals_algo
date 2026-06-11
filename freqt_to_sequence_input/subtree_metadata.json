@@ -1,0 +1,212 @@
+[
+  {
+    "sequence_id": 1,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 7,
+    "sequence_length": 4
+  },
+  {
+    "sequence_id": 2,
+    "freqtals_support": 2,
+    "freqtals_wsupport": 2,
+    "freqtals_size": 9,
+    "sequence_length": 4
+  },
+  {
+    "sequence_id": 3,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 8,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 4,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 20,
+    "sequence_length": 4
+  },
+  {
+    "sequence_id": 5,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 15,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 6,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 11,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 7,
+    "freqtals_support": 5,
+    "freqtals_wsupport": 5,
+    "freqtals_size": 25,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 8,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 14,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 9,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 9,
+    "sequence_length": 4
+  },
+  {
+    "sequence_id": 10,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 13,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 11,
+    "freqtals_support": 5,
+    "freqtals_wsupport": 5,
+    "freqtals_size": 19,
+    "sequence_length": 8
+  },
+  {
+    "sequence_id": 12,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 59,
+    "sequence_length": 8
+  },
+  {
+    "sequence_id": 13,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 13,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 14,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 34,
+    "sequence_length": 7
+  },
+  {
+    "sequence_id": 15,
+    "freqtals_support": 5,
+    "freqtals_wsupport": 8,
+    "freqtals_size": 9,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 16,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 8,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 17,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 12,
+    "sequence_length": 4
+  },
+  {
+    "sequence_id": 18,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 14,
+    "sequence_length": 5
+  },
+  {
+    "sequence_id": 19,
+    "freqtals_support": 2,
+    "freqtals_wsupport": 2,
+    "freqtals_size": 10,
+    "sequence_length": 4
+  },
+  {
+    "sequence_id": 20,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 35,
+    "sequence_length": 10
+  },
+  {
+    "sequence_id": 21,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 17,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 22,
+    "freqtals_support": 3,
+    "freqtals_wsupport": 3,
+    "freqtals_size": 9,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 23,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 21,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 24,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 18,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 25,
+    "freqtals_support": 2,
+    "freqtals_wsupport": 2,
+    "freqtals_size": 9,
+    "sequence_length": 6
+  },
+  {
+    "sequence_id": 26,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 30,
+    "sequence_length": 8
+  },
+  {
+    "sequence_id": 27,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 18,
+    "sequence_length": 7
+  },
+  {
+    "sequence_id": 28,
+    "freqtals_support": 2,
+    "freqtals_wsupport": 2,
+    "freqtals_size": 32,
+    "sequence_length": 9
+  },
+  {
+    "sequence_id": 29,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 31,
+    "sequence_length": 8
+  },
+  {
+    "sequence_id": 30,
+    "freqtals_support": 1,
+    "freqtals_wsupport": 1,
+    "freqtals_size": 9,
+    "sequence_length": 6
+  }
+]
